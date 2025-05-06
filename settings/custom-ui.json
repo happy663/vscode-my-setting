@@ -1,6 +1,6 @@
 {
   "custom-ui-style.external.imports": [
-    "file:///Users/toyama/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    "file:///Users/happy/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
   "custom-ui-style.stylesheet": {
     ".quick-input-widget": {

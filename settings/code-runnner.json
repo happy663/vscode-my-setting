@@ -53,5 +53,5 @@
     "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "sml": "cd $dir && sml $fileName"
   },
-  "code-runner.runInTerminal": true
+  "code-runner.runInTerminal": true,
 }

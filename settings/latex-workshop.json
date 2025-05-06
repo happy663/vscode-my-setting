@@ -74,25 +74,39 @@
     {
       "name": "bibtex",
       "command": "bibtex",
-      "args": ["%DOCFILE%"]
+      "args": [
+        "%DOCFILE%"
+      ]
     },
     {
       "name": "pbibtex",
       "command": "pbibtex",
-      "args": ["-kanji=utf8", "%DOCFILE%"]
+      "args": [
+        "-kanji=utf8",
+        "%DOCFILE%"
+      ]
     }
   ],
   "latex-workshop.latex.recipes": [
     {
       "name": "ptex2pdf",
-      "tools": ["ptex2pdf"]
+      "tools": [
+        "ptex2pdf"
+      ]
     },
     {
       "name": "ptex2pdf (bib)",
-      "tools": ["ptex2pdf", "pbibtex", "ptex2pdf"]
+      "tools": [
+        "ptex2pdf",
+        "pbibtex",
+        "ptex2pdf"
+      ]
     }
   ],
-  "latex-workshop.formatting.latexindent.args": ["%TMPFILE%", "-c=%DIR%/"],
+  "latex-workshop.formatting.latexindent.args": [
+    "%TMPFILE%",
+    "-c=%DIR%/"
+  ],
   "latex-workshop.formatting.latexindent.path": "latexindent",
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.hover.preview.enabled": true,

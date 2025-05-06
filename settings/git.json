@@ -7,6 +7,7 @@
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.enable": {
+    "enableAutoCompletions": true,
     "*": true,
     "plaintext": true,
     "markdown": false,
@@ -17,6 +18,5 @@
     "javascript": true,
     "latex": true
   },
-  "github.copilot.editor.enableAutoCompletions": true,
   "git.confirmSync": false,
 }
