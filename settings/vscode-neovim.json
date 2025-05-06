@@ -3,7 +3,7 @@
     "asvetliakov.vscode-neovim": 1
   },
   "vscode-neovim.neovimExecutablePaths.darwin": "/Users/happy/.local/share/mise/installs/neovim/0.10.2/nvim-macos-arm64/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/toyama/.config/nvim/init.lua",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/happy/.config/nvim/init.lua",
   "vscode-neovim.compositeKeys": {
     "jj": {
       "command": "vscode-neovim.escape",

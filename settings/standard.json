@@ -3,6 +3,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "editor.minimap.enabled": false,
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.inlineSuggest.enabled": true,
   "editor.largeFileOptimizations": false,
@@ -12,7 +13,6 @@
     "strings": true
   },
   "editor.tabSize": 2,
-  "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.cursorSurroundingLines": 1000,
   "editor.bracketPairColorization.enabled": true,
