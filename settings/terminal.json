@@ -1,0 +1,8 @@
+{
+  // ここに設定を追加してください
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontSize": 15
+}

@@ -1,0 +1,9 @@
+{
+  "notebook.formatOnSave.enabled": true,
+  "notebook.lineNumbers": "on",
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "jupyter.askForKernelRestart": false,
+}

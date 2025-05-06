@@ -1,0 +1,31 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.cursorSurroundingLines": 1000,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 14,
+  "files.associations": {
+    "**/settings/*.json": "jsonc"
+  },
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.iconTheme": "city-lights-icons-vsc-light",
+  "workbench.editor.customLabels.patterns": {
+    "**/index.*": "${dirname}/${filename}.${extname}"
+  },
+  "explorer.confirmDragAndDrop": false
+}

@@ -1,0 +1,6 @@
+{
+  // ここに設定を追加してください
+  "animations.Install-Method": "Custom UI Style",
+  "animations.Scrolling": "Fade",
+  "animations.CursorAnimation": true
+}

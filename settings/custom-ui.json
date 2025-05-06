@@ -1,0 +1,85 @@
+{
+  "custom-ui-style.external.imports": [
+    "file:///Users/toyama/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "custom-ui-style.stylesheet": {
+    ".quick-input-widget": {
+      "position": "absolute !important",
+      "top": "200px !important",
+      "left": "50%",
+      "border-radius": "10px",
+      "border": "1px solid var(--vscode-textSeparator-foreground) !important",
+      "box-shadow": "0 0 60px 0 rgba(0,0,0,0.2) !important"
+    },
+    // left title bar (controls)
+    ".titlebar-left": {
+      "max-width": "80px !important"
+    },
+    ".statusbar": {
+      "font-size": "10px",
+      "height": "19px !important" // 高さも小さく設定
+    },
+    ".statusbar-item": {
+      "font-size": "10px",
+      "line-height": "19px" // 行の高さも調整
+    }
+    // // center title bar
+    // ".titlebar-center": {
+    //   "margin": "0 !important"
+    // },
+    // // arrow buttons
+    // ".action-item.menu-entry": {
+    //   "display": "none !important"
+    // },
+    // // whole title bar command center container
+    // ".action-item.command-center-center": {
+    //   "background-color": "transparent !important",
+    //   "border": "none !important",
+    //   "width": "fit-content !important"
+    // },
+    // // field
+    // ".quick-input-header": {
+    //   "padding": "0 !important"
+    // },
+    // // input element container
+    // ".quick-input-header > .quick-input-and-message .monaco-inputbox": {
+    //   "border-radius": "10px 10px 0 0 !important"
+    // },
+    // // actual input element
+    // ".quick-input-header > .quick-input-and-message > .quick-input-filter > .quick-input-box input": {
+    //   "padding": "8px 10px !important"
+    // },
+    // // list of results
+    // ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+    //   "padding": "2px !important"
+    // },
+    //
+    //
+    //
+    // // hides search icon
+    // ".codicon.codicon-search.search-icon": {
+    //   "display": "none !important"
+    // },
+    // // empty editor background
+    // ".editor-group-container.empty.active": {
+    //   "background-color": "var(--vscode-statusBar-background)"
+    // },
+    // "div:has(> .tabs-and-actions-container.tabs-border-bottom.empty)": {
+    //   "background-color": "var(--vscode-statusBar-background) !important"
+    // },
+    //
+    // // タブバー（エディタータブ）の高さを小さくする
+    // ".tabs-container": {
+    //   "height": "28px !important" // デフォルトより小さい高さに設定
+    // },
+    // // 個々のタブの高さも調整
+    // ".tab": {
+    //   "height": "30px !important",
+    //   "line-height": "30px !important"
+    // },
+    // // タブ内のラベル（ファイル名）も調整
+    // ".tab .label-name": {
+    //   "line-height": "14px !important"
+    // }
+  },
+}

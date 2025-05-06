@@ -1,0 +1,11 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "githubPullRequests.pullBranch": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "console-ninja.featureSet": "Community",
+  "blockman.n33A01B2FromDepth0ToInwardForAllBackgrounds": "45,0,0,2; none",
+  "redhat.telemetry.enabled": true,
+  "files.autoSave": "afterDelay",
+  "interactiveWindow.executeWithShiftEnter": true,
+  "workspaceExplorer.workspaceStorageDirectory": "/Users/toyama/src/workspace",
+}

@@ -1,0 +1,46 @@
+{
+  // ここに設定を追加してください
+  "go.lintFlags": [
+    "--config=${workspaceFolder}/backend/.golangci.yml",
+    "--fast",
+    "--fix"
+  ],
+  "go.lintTool": "golangci-lint",
+  "haskell.manageHLS": "GHCup",
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.extraPaths": [
+    // "/Users/toyama/.pyenv/versions/3.10.0/lib/python3.10/site-packages"
+    "${workspaceFolder}/**/lib/**/site-packages/"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.autocomplete": "disabled",
+  "markdown-preview-enhanced.enablePreviewZenMode": false
+}
